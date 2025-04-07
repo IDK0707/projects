@@ -1,0 +1,56 @@
+/* Global Styles */
+body {
+  background-color: #000000; /* Jet Black */
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+p {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+/* Button Styles */
+button {
+  background-color: #1f1f1f;
+  color: #FFD700; /* Gold */
+  border: 2px solid #FFD700;
+  border-radius: 10px;
+  padding: 12px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 10px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #FFD700;
+  color: #000000;
+  box-shadow: 0 0 10px #FFD700;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+/* Result and Score Styling */
+.js-result {
+  font-size: 28px;
+  font-weight: bold;
+  color: #4CAF50; /* Green for results */
+  margin-top: 30px;
+}
+
+.js-moves {
+  font-size: 22px;
+  color: #bbbbbb;
+}
+
+.js-score {
+  font-size: 20px;
+  color: #cccccc;
+  margin-top: 15px;
+}
+
